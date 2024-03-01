@@ -14,7 +14,7 @@ import streamlit
 import torch
 from torch.nn import Sequential
 
-model = torch.load(r"C:\Users\Megha Mohan\streamlitt\model_93_acc_100_frames_celeb_FF_data.pt")
+model = torch.load("\model_93_acc_100_frames_celeb_FF_data.pt")
 
 
 def make_prediction(img):
